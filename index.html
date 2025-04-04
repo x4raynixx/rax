@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rax - Home - 1.0.0</title>
+  </head>
+  <body>
+    <h1>Rax Player is running</h1>
+    <p id="status">No action yet</p>
+
+    <script>
+      const { ipcRenderer } = require('electron');
+
+      ipcRenderer.on('tray-action', (event, action) => {
+        document.getElementById('status').innerText = `Action: ${action}`;
+      });
+    </script>
+  </body>
+</html>

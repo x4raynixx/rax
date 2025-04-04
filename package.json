@@ -1,0 +1,25 @@
+{
+  "name": "rax",
+  "version": "1.0.0",
+  "description": "Rax is an app to play Music without ads like Spotify. It comes with an built-in Marketplace where you can install things like themes, plugins and etc.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x4raynixx/rax.git"
+  },
+  "keywords": [
+    "best",
+    "rax",
+    "music"
+  ],
+  "author": "rAAyan (Raynixx)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x4raynixx/rax/issues"
+  },
+  "homepage": "https://github.com/x4raynixx/rax#readme"
+}
